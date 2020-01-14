@@ -1,0 +1,57 @@
+HTML Tags Dictionary
+
+!DOCTYPE: Selects the most recent version of HTML, the html attribute means you want the most recent version.
+     Attributes: html
+	 Example: <!DOCTYPE>
+
+a: Anchor/link tag, used to put a link into the document. Good for easy access to different websites, videos, pdfs, ect.
+     Attributes: href, =, ""
+	 Example: <a href=" a website link"> A Website </a>
+	 
+body: Contains the content of the webiste.
+     Attributes: none
+	 Example: <body> a bunch of stuff and tags </body>
+
+h1: Header tag, makes th etext large and puts it on a seperate line. Bolds the text as well.
+     Attributes: none
+	 Example: <h1> hi </h1>
+	 
+h2: Header tag, pretty much the same as h1, except different size. Can use h1-h2. Each different tag varies in size.
+     Attributes: none
+     Example: <h2>  hi </h2>
+	 
+head: Things for your browser to think about when looking at your webpage
+     Attributes: none
+     Example: <head> a bunch of text and tags </head>
+
+html: marks the beginning and end of your html code
+     Attributes: none
+     Example: <html> </html>	 
+	 
+img: Image tag, allows for an image to be placed on the site.
+     Attributes: src, =, "", .jpg, .png
+	 Example: <img src="some image name .jpg">
+
+li: List tag, allows for bodies of text to be put into lists.
+     Attributes: none
+     Example: <li> hello </li>
+	 
+ol: Ordered list tag, allows for bodies of text to be put into an ordered number list. Needs <li> tag to work.
+     Attributes: none
+     Example: <ol>
+                   <li> hello </li>
+               </ol>		
+
+p: Paragraph tag, allows for bodies of large text to be seperated into paragraphs.
+     Attributes: none
+     Example: <p> Hello this is a paragraph. This paragraph has no content or subject, it is just an example. </p>
+	 
+title: Controls the tab name.
+     Attributes: must go in head tag
+     Example: <title> Website Name </title>	 
+
+ul: Unordered list tag, allows for a body of text to be put into a list that is organized by bullet points. Needs <li> to work.
+     Attributes: none
+	 Example: <ul>
+	              <li> hello </li>
+			  </ul>			  
